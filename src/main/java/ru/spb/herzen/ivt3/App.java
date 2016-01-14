@@ -73,7 +73,7 @@ public class App
         /*task_7*/
         System.out.println("\nTask seven");
         count = 0;
-        char[] vowels_array= {'A','E','I','O','U','a','e','i','o','u'};
+        char[] vowels_array= {'A','E','I','O','U','Y','a','e','i','o','u','y'};
         char tmp_char='\0';
         for(char x : char_array){
             if(Arrays.binarySearch(vowels_array, x)>0){
