@@ -49,7 +49,6 @@ public class App
         int[] num_array = new int[30];
 
         for(int i=0; i<15; i++){
-            String name = rand.next();
             num_array[i] = (int) Math.floor(Math.random()*201);
         }
         int count = 0;
